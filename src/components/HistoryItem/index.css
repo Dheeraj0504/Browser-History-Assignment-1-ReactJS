@@ -1,0 +1,94 @@
+.history-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+.history-details-container {
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .history-details-container {
+    display: flex;
+    align-items: center;
+  }
+}
+.time-accessed {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .logo-title-container {
+    margin-left: 40px;
+  }
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.title-url-container {
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .title-url-container {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
+}
+.title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.domain-url {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin: 0;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    margin: 0;
+    font-size: 20px;
+  }
+  .domain-url {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.delete-icon {
+  align-self: flex-end;
+  height: 25px;
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .delete-button {
+    margin-left: 20px;
+  }
+  .delete-icon {
+    height: 30px;
+    width: 30px;
+  }
+}

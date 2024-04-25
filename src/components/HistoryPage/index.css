@@ -1,0 +1,92 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.history-header-contianer {
+  background-color: #3367d6;
+  padding: 20px 15px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .history-header-contianer {
+    justify-content: flex-start;
+  }
+}
+.history-logo {
+  width: 100px;
+  height: 25px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .history-logo {
+    margin-left: 20px;
+    height: 25px;
+    width: 80px;
+  }
+}
+.search-input-container {
+  background-color: #2850a7;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #6697ff;
+}
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+.search-input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 5px;
+  padding-left: 10px;
+  width: 100%;
+  margin-left: 10px;
+  height: 40px;
+  border-left: 1px solid #6697ff;
+  color: #f8fafc;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    height: 35px;
+  }
+}
+.no-history-text {
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #64748b;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.browser-history-list {
+  padding-left: 0;
+  padding: 30px 20px;
+  margin:60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+@media screen and (min-width: 768px) {
+  .browser-history-list {
+    padding: 50px;
+  }
+}
